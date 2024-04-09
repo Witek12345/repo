@@ -1,0 +1,31 @@
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0 24px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.card {
+  padding: 12px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 4px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+  background-color: rgb(80, 80, 80);
+  border: none;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: white;
+}
