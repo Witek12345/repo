@@ -6,7 +6,40 @@
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="styles.css" />
     <style>
-     
+      #relative  .blue-box{
+        position: relative;
+        left: 200px;
+      }
+      #relative  .green-box{
+      position: relative;
+      top: 100px;
+      }
+
+      #absolute .blue-box{
+        position: absolute;
+        left: 850px;
+      }
+      #absolute .green-box{
+        position: absolute;
+      }
+
+      #fixed  .green-box{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+      }
+      #fixed  .blue-box{
+        position: fixed;
+        top: 0;
+        right: 0;
+      }
+
+      #absolute .blue-box:hover,
+      #absolute .green-box:hover
+       {
+        z-index: 1;
+      }
+
     </style>
   </head>
   <body>
