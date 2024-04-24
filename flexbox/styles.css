@@ -13,12 +13,16 @@ body {
   background-color: lightgray;
 }
 
-.card {
+.card{
+  display: flex;
   padding: 12px;
   background-color: white;
-  border: 1px solid gray;
   border-radius: 4px;
-  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.1);
+  align-items: flex-start;
+  gap: 32px;
+  width: 100%;
+  justify-content: center;
 }
 
 .button {
@@ -28,4 +32,18 @@ body {
   padding: 8px 12px;
   border-radius: 4px;
   color: white;
+}
+.button:hover{
+  background-color: rgb(150, 150, 150);
+}
+.button2{
+  background-color:green;
+  border: none;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: white;
+}
+.button2:hover{
+  background-color: lightgreen;
 }
