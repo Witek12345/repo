@@ -5,20 +5,24 @@
     <meta name="viewport" content="width=6, initial-scale=1.0">
     <title>TASK MANAGER</title>
     <link rel="stylesheet" href="style.css">
-    <script src="js.js"></script>
 </head>
 <body>
     <header>
         <h1>TASK MANAGER</h1>
     </header>
     <div class="conteiner">
-        <section class="main">
-            <input type="text" id="name" placeholder="TASK">
-            <input type="text" id="status" placeholder="STATUS">
-            <button onclick="Add()">ADD</button>
-        </section>
+        <form class="main add-task-form">
+            <input type="text" name="name" placeholder="TASK">
+            <input type="text" name="status" placeholder="STATUS">
+            <button type="submit" id="button">ADD</button>
+        </form>
     </div>
+    <ul>
+        <li></li>
+        <li></li>
+    </ul>
     <footer>  
     </footer>
+    <script src="js.js"></script>
 </body>
 </html>
